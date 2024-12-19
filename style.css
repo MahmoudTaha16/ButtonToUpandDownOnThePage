@@ -1,0 +1,21 @@
+.container{
+text-align: center;
+height: 10000px;
+}
+
+.btnUpDown{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+#btnup,#btndown{
+    text-align: center;
+    border-radius: 50%;
+    border: none;
+    background-color: red;
+    margin-top: 5px;
+}
